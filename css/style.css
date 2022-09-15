@@ -23,7 +23,7 @@ h1{
 .meny div{
     flex-basis:20%;
     margin: 0.5rem 1rem;
-    background-color: rgba(247, 205, 20, 0.063);
+    /* background-color: rgba(247, 205, 20, 0.063); */
 
 }
 
