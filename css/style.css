@@ -1,0 +1,67 @@
+.underline{
+    text-decoration: underline;
+}
+
+h1{
+    display:flex;
+    margin: 14rem 10rem -9rem;
+    justify-content:center;
+    font-size: 450%;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration:underline overline;
+    transform: rotate(360deg);
+    transition: transform 1.5s;
+}
+
+.meny{
+    display: flex;
+    margin: 12rem 10rem;
+    justify-content:center; 
+    flex-flow: row wrap;
+}
+
+.meny div{
+    flex-basis:20%;
+    margin: 0.5rem 1rem;
+    background-color: rgba(247, 205, 20, 0.063);
+
+}
+
+.meny h2{
+    text-align: center;
+    text-decoration:underline;
+}
+
+.meny img{
+    border-radius: 20%;
+    margin: 1.5rem 2rem;
+}
+
+.meny p{
+    text-align: center;
+    font-weight: 600;
+}
+
+.meny div:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.meny div:hover img{
+    transition: 0.8s;
+    transform:scale(1.1)
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    background-color: #ffc107;
+}
+
+.footer p{
+    flex-basis:27%;
+    text-align: center;
+    border:double black;
+    margin-bottom: 1px;
+}
+
